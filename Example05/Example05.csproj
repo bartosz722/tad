@@ -40,7 +40,7 @@
     <Compile Include="about.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="about.designer.cs">
+    <Compile Include="about.Designer.cs">
       <DependentUpon>about.cs</DependentUpon>
     </Compile>
     <Compile Include="InputFrame.cs">
