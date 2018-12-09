@@ -36,6 +36,8 @@ namespace RTadeusiewicz.NN.Example01a
         /// </summary>
         private void InitializeComponent()
         {
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
+
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -279,7 +281,7 @@ namespace RTadeusiewicz.NN.Example01a
             // uiAttitude
             // 
             this.uiAttitude.AutoSize = true;
-            this.uiAttitude.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.uiAttitude.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.uiAttitude.Location = new System.Drawing.Point(286, 35);
             this.uiAttitude.Margin = new System.Windows.Forms.Padding(3);
             this.uiAttitude.Name = "uiAttitude";
@@ -290,7 +292,7 @@ namespace RTadeusiewicz.NN.Example01a
             // uiOutput
             // 
             this.uiOutput.AutoSize = true;
-            this.uiOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.uiOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.uiOutput.Location = new System.Drawing.Point(286, 16);
             this.uiOutput.Margin = new System.Windows.Forms.Padding(3);
             this.uiOutput.Name = "uiOutput";

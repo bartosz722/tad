@@ -62,17 +62,17 @@ namespace RTadeusiewicz.NN.Example01a
             if (Math.Abs(response) < 0.2 * strength)
             {
                 attitude = "indifferent";
-                labelColor = Color.DarkCyan;
+                labelColor = Color.Blue;
             }
             else if (response < 0)
             {
                 attitude = "negative";
-                labelColor = Color.Blue;
+                labelColor = Color.Red;
             }
             else
             {
                 attitude = "positive";
-                labelColor = Color.Red;
+                labelColor = Color.Green;
             }
 
             /* And now, we put the text, color and numbers in appropriate places.
