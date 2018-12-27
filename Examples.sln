@@ -1,6 +1,14 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 9.00
-# Visual Studio 2005
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CF8F7577-B647-4483-A272-4C79D383BDEC}"
+	ProjectSection(SolutionItems) = preProject
+		Tutorial.html = Tutorial.html
+		VERSION.txt = VERSION.txt
+	EndProjectSection
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryTest", "LibraryTest\LibraryTest.csproj", "{58615DF5-0C81-40EC-A65A-0D1788F1385B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example07a", "Example07a\Example07a.csproj", "{5A422AF9-40DE-480D-9165-874B6D3FB5C0}"
@@ -8,12 +16,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example07b", "Example07b\Example07b.csproj", "{24E61D89-F7A9-45AF-A33A-532082672C06}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example07c", "Example07c\Example07c.csproj", "{C0609ACD-42D1-4408-A690-2974D19F497D}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CF8F7577-B647-4483-A272-4C79D383BDEC}"
-	ProjectSection(SolutionItems) = preProject
-		Tutorial.html = Tutorial.html
-		VERSION.txt = VERSION.txt
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controls", "Controls\Controls.csproj", "{F965BCB1-C181-436E-9928-5598CA657B63}"
 EndProject
@@ -45,8 +47,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example06a", "Example06a\Example06a.csproj", "{4D8F8855-5841-4DFC-B789-0B4461926E35}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example06b", "Example06b\Example06b.csproj", "{8B603928-70A7-4AF3-953E-F5086839EBDF}"
-EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{17C97855-21CF-4CE3-9E3F-C8EE233C5BA7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example06c", "Example06c\Example06c.csproj", "{263339AA-5894-4AA7-BACA-6D74A0846A33}"
 EndProject
@@ -146,8 +146,6 @@ Global
 		{8B603928-70A7-4AF3-953E-F5086839EBDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B603928-70A7-4AF3-953E-F5086839EBDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B603928-70A7-4AF3-953E-F5086839EBDF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{17C97855-21CF-4CE3-9E3F-C8EE233C5BA7}.Debug|Any CPU.ActiveCfg = Debug
-		{17C97855-21CF-4CE3-9E3F-C8EE233C5BA7}.Release|Any CPU.ActiveCfg = Release
 		{263339AA-5894-4AA7-BACA-6D74A0846A33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{263339AA-5894-4AA7-BACA-6D74A0846A33}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{263339AA-5894-4AA7-BACA-6D74A0846A33}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -199,5 +197,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {312D45AB-6C71-4D68-9194-4412682BBE3C}
 	EndGlobalSection
 EndGlobal
