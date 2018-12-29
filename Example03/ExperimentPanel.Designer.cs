@@ -47,7 +47,8 @@ namespace RTadeusiewicz.NN.Example03
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label1.Location = new System.Drawing.Point(3, 0);
+            this.label1.Location = new System.Drawing.Point(4, 0);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(108, 20);
             this.label1.TabIndex = 1;
@@ -58,28 +59,30 @@ namespace RTadeusiewicz.NN.Example03
             this.uiKnownObjects.AllowUserToAddRows = false;
             this.uiKnownObjects.AllowUserToDeleteRows = false;
             this.uiKnownObjects.AllowUserToResizeRows = false;
-            this.uiKnownObjects.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.uiKnownObjects.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.uiKnownObjects.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.uiKnownObjects.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.uiKnownObjects.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.uiKnownObjects.Location = new System.Drawing.Point(3, 36);
+            this.uiKnownObjects.Location = new System.Drawing.Point(4, 50);
+            this.uiKnownObjects.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.uiKnownObjects.MultiSelect = false;
             this.uiKnownObjects.Name = "uiKnownObjects";
             this.uiKnownObjects.ReadOnly = true;
             this.uiKnownObjects.RowHeadersVisible = false;
             this.uiKnownObjects.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.uiKnownObjects.Size = new System.Drawing.Size(478, 162);
+            this.uiKnownObjects.Size = new System.Drawing.Size(717, 224);
             this.uiKnownObjects.TabIndex = 2;
             this.uiKnownObjects.SelectionChanged += new System.EventHandler(this.uiKnownObjects_SelectionChanged);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(3, 20);
+            this.label2.Location = new System.Drawing.Point(4, 28);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(267, 13);
+            this.label2.Size = new System.Drawing.Size(370, 18);
             this.label2.TabIndex = 3;
             this.label2.Text = "Those are the objects our neuron should already know:";
             // 
@@ -88,26 +91,27 @@ namespace RTadeusiewicz.NN.Example03
             this.uiInputData.AllowUserToAddRows = false;
             this.uiInputData.AllowUserToDeleteRows = false;
             this.uiInputData.AllowUserToResizeRows = false;
-            this.uiInputData.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.uiInputData.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.uiInputData.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.uiInputData.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.uiInputData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.uiInputData.ColumnHeadersVisible = false;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Window;
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.ControlText;
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.uiInputData.DefaultCellStyle = dataGridViewCellStyle1;
             this.uiInputData.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnEnter;
-            this.uiInputData.Location = new System.Drawing.Point(3, 217);
+            this.uiInputData.Location = new System.Drawing.Point(4, 300);
+            this.uiInputData.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.uiInputData.MultiSelect = false;
             this.uiInputData.Name = "uiInputData";
             this.uiInputData.RowHeadersVisible = false;
-            this.uiInputData.Size = new System.Drawing.Size(478, 74);
+            this.uiInputData.Size = new System.Drawing.Size(717, 102);
             this.uiInputData.TabIndex = 2;
             this.uiInputData.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.uiInputData_CellValueChanged);
             // 
@@ -116,18 +120,20 @@ namespace RTadeusiewicz.NN.Example03
             this.uiResponse.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.uiResponse.BackColor = System.Drawing.SystemColors.Control;
             this.uiResponse.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.uiResponse.Location = new System.Drawing.Point(381, 299);
+            this.uiResponse.Location = new System.Drawing.Point(572, 414);
+            this.uiResponse.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.uiResponse.Name = "uiResponse";
-            this.uiResponse.Size = new System.Drawing.Size(100, 20);
+            this.uiResponse.Size = new System.Drawing.Size(148, 24);
             this.uiResponse.TabIndex = 4;
             // 
             // label3
             // 
             this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(3, 201);
+            this.label3.Location = new System.Drawing.Point(4, 278);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(336, 13);
+            this.label3.Size = new System.Drawing.Size(460, 18);
             this.label3.TabIndex = 5;
             this.label3.Text = "Here you can enter the feature values for the object to be recognized:";
             // 
@@ -136,7 +142,8 @@ namespace RTadeusiewicz.NN.Example03
             this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label4.Location = new System.Drawing.Point(286, 302);
+            this.label4.Location = new System.Drawing.Point(429, 418);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(67, 13);
             this.label4.TabIndex = 6;
@@ -145,25 +152,27 @@ namespace RTadeusiewicz.NN.Example03
             // explanationToolTip1
             // 
             this.explanationToolTip1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.explanationToolTip1.Location = new System.Drawing.Point(3, 297);
+            this.explanationToolTip1.Location = new System.Drawing.Point(4, 411);
+            this.explanationToolTip1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.explanationToolTip1.Name = "explanationToolTip1";
-            this.explanationToolTip1.Size = new System.Drawing.Size(23, 23);
+            this.explanationToolTip1.Size = new System.Drawing.Size(34, 32);
             this.explanationToolTip1.TabIndex = 7;
             this.explanationToolTip1.ToolTipText = resources.GetString("explanationToolTip1.ToolTipText");
             // 
             // button1
             // 
             this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.Location = new System.Drawing.Point(185, 297);
+            this.button1.Location = new System.Drawing.Point(278, 411);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(95, 23);
+            this.button1.Size = new System.Drawing.Size(142, 32);
             this.button1.TabIndex = 8;
             this.button1.Text = "Recalculate!";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // ExperimentPanel
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.explanationToolTip1);
             this.Controls.Add(this.label4);
@@ -173,8 +182,10 @@ namespace RTadeusiewicz.NN.Example03
             this.Controls.Add(this.uiInputData);
             this.Controls.Add(this.uiKnownObjects);
             this.Controls.Add(this.label1);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "ExperimentPanel";
-            this.Size = new System.Drawing.Size(484, 323);
+            this.Size = new System.Drawing.Size(726, 447);
             ((System.ComponentModel.ISupportInitialize)(this.uiKnownObjects)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.uiInputData)).EndInit();
             this.ResumeLayout(false);

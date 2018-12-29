@@ -33,7 +33,7 @@ namespace RTadeusiewicz.NN.Example03
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.ClientSize = new System.Drawing.Size(599, 411);
+            this.ClientSize = new System.Drawing.Size(784, 662);
             this.Name = "MainForm";
             this.Text = "Teaching one linear neuron (example 03)";
             this.ResumeLayout(false);
