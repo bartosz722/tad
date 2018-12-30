@@ -130,21 +130,21 @@ namespace RTadeusiewicz.NN.Example04
                 _currentError[i] =
                     CurrentElement.ExpectedOutputs[i] - _currentResponse[i];
 
-            /*double avg = 0.0;
+            double avg = 0.0;
             foreach (double err in _currentError)
                 avg += Math.Abs(err);
             avg /= _currentError.Length;
-            _progressHistory.Buffer.Add((float)avg);*/
-
-            double avg = 0.0;
-            foreach (TeachingSet.Element elem in _normalizedTeachingSet)
-            {
-                double[] resp = _examinedNetwork.Response(elem.Inputs);
-                for (int i = 0; i < resp.Length; i++)
-                    avg += Math.Abs(elem.ExpectedOutputs[i] - resp[i]);
-            }
-            avg /= _examinedNetwork.Neurons.Length * _normalizedTeachingSet.Count;
             _progressHistory.Buffer.Add((float)avg);
+
+            //double avg = 0.0;
+            //foreach (TeachingSet.Element elem in _normalizedTeachingSet)
+            //{
+            //    double[] resp = _examinedNetwork.Response(elem.Inputs);
+            //    for (int i = 0; i < resp.Length; i++)
+            //        avg += Math.Abs(elem.ExpectedOutputs[i] - resp[i]);
+            //}
+            //avg /= _examinedNetwork.Neurons.Length * _normalizedTeachingSet.Count;
+            //_progressHistory.Buffer.Add((float)avg);
 
             _teachingStep++;
         }

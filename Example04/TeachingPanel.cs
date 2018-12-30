@@ -132,7 +132,9 @@ namespace RTadeusiewicz.NN.Example04
 
         private void uiTeachMore_Click(object sender, EventArgs e)
         {
-            PerformTeaching();
+            // Przyspieszone uczenie
+            for (int i=0; i<10; i++)
+                PerformTeaching();
         }
 
         private void uiReset_Click(object sender, EventArgs e)
