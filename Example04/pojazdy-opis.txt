@@ -1,6 +1,6 @@
-moc x 100 KM
-max prędk x 100 km/h
-masa własna T
+moc x 500 KM
+max prędk x 200 km/h
+masa własna x 10 T
 benzyna 0/1
 diesel 0/1
 
