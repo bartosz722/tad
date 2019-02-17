@@ -76,9 +76,9 @@ namespace RTadeusiewicz.NN.Example06d
             // 
             // tableLayoutPanel1
             // 
-            this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel1.ColumnCount = 2;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
@@ -170,8 +170,8 @@ namespace RTadeusiewicz.NN.Example06d
             // 
             // uiTransferFunctionType
             // 
-            this.uiTransferFunctionType.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.uiTransferFunctionType.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel2.SetColumnSpan(this.uiTransferFunctionType, 4);
             this.uiTransferFunctionType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.uiTransferFunctionType.FormattingEnabled = true;
@@ -208,8 +208,8 @@ namespace RTadeusiewicz.NN.Example06d
             // 
             // uiLayerCount
             // 
-            this.uiLayerCount.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.uiLayerCount.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.uiLayerCount.AutoSize = false;
             this.uiLayerCount.LargeChange = 1;
             this.uiLayerCount.Location = new System.Drawing.Point(149, 30);
@@ -259,9 +259,9 @@ namespace RTadeusiewicz.NN.Example06d
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(3, 61);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(94, 13);
+            this.label6.Size = new System.Drawing.Size(100, 13);
             this.label6.TabIndex = 2;
-            this.label6.Text = "Number of outputs";
+            this.label6.Text = "Neurons in 1st layer";
             // 
             // label7
             // 
@@ -276,8 +276,8 @@ namespace RTadeusiewicz.NN.Example06d
             // 
             // uiOutputCount
             // 
-            this.uiOutputCount.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.uiOutputCount.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.uiOutputCount.AutoSize = false;
             this.uiOutputCount.LargeChange = 1;
             this.uiOutputCount.Location = new System.Drawing.Point(149, 57);
@@ -333,8 +333,8 @@ namespace RTadeusiewicz.NN.Example06d
             // 
             // uiWeightsRange
             // 
-            this.uiWeightsRange.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.uiWeightsRange.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.uiWeightsRange.AutoSize = false;
             this.uiWeightsRange.LargeChange = 1;
             this.uiWeightsRange.Location = new System.Drawing.Point(149, 84);
@@ -379,8 +379,8 @@ namespace RTadeusiewicz.NN.Example06d
             // 
             // uiBiasWeightsRange
             // 
-            this.uiBiasWeightsRange.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.uiBiasWeightsRange.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.uiBiasWeightsRange.AutoSize = false;
             this.uiBiasWeightsRange.Enabled = false;
             this.uiBiasWeightsRange.LargeChange = 1;
@@ -462,8 +462,8 @@ namespace RTadeusiewicz.NN.Example06d
             // 
             // groupBox2
             // 
-            this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox2.AutoSize = true;
             this.groupBox2.Controls.Add(this.flowLayoutPanel2);
             this.groupBox2.Location = new System.Drawing.Point(198, 163);

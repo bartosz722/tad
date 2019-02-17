@@ -74,7 +74,8 @@ namespace RTadeusiewicz.NN.Example06d
                 return;
 
             int layerCount = uiLayerCount.Value;
-            int outputCount = uiOutputCount.Value;
+            int inputCount = uiOutputCount.Value;
+            int outputCount = 1;
             double weightsRange = GetWeightsRange(uiWeightsRange.Value);
             double topWeight = weightsRange / 2.0;
             double bottomWeight = topWeight - weightsRange;
@@ -82,7 +83,8 @@ namespace RTadeusiewicz.NN.Example06d
             double bottomBiasWeight = -(biasWeightsRange / 2.0);
 
             int[] neuronCounts = new int[layerCount];
-            for (int i = 0; i < neuronCounts.Length - 1; i++)
+            neuronCounts[0] = inputCount;
+            for (int i = 1; i < neuronCounts.Length - 1; i++)
                 neuronCounts[i] = layerCount;
             neuronCounts[neuronCounts.Length - 1] = outputCount;
             Type neuronType;
